@@ -7,4 +7,5 @@ pyyaml
 pyglet
 tensorboardX
 torch>=1.9.1
+trimesh
 wandb>=0.17.4
