@@ -1,0 +1,24 @@
+env_name: "smp"
+
+char_file: "data/assets/booster_k1/k1.xml"
+camera_mode: "track"
+
+episode_length: 10.0 # seconds
+global_obs: True
+root_height_obs: True
+pose_termination: False
+enable_phase_obs: False
+enable_tar_obs: False
+disc_dof_vel_obs: False
+num_disc_obs_steps: 10
+rand_reset: True
+zero_center_action: True
+
+ref_char_offset: [2.0, 0.0, 0.0] # m
+init_pose: [0, 0, 0.518, 0, 0, 0, 0, 0, 0, -1.4, 0, -0.4, 0, 1.4, 0, 0.4, -0.4, 0, 0, 0.8, -0.4, 0, -0.4, 0, 0, 0.8, -0.4, 0]
+
+enable_early_termination: True
+key_bodies: ["left_foot_link", "right_foot_link", "Head_2", "left_hand_end_ball", "right_hand_end_ball"]
+contact_bodies: ["left_foot_link", "right_foot_link"]
+
+motion_file: "data/motions/booster_k1/booster_k1_motion.pkl"
