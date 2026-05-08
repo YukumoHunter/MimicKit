@@ -26,6 +26,6 @@ grad_clip_norm: 1.0
 
 env_config: "data/envs/smp_location_booster_k1_env.yaml"
 motion_file: "data/datasets/dataset_booster_k1.yaml"
-control_freq: 30
+control_freq: 50
 
 master_port: '11435'

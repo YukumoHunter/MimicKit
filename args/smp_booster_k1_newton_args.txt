@@ -1,8 +1,8 @@
 --num_envs 4096
 --visualize false
 
---engine_config data/engines/isaac_lab_engine_50hz.yaml
+--engine_config data/engines/newton_engine_50hz.yaml
 --env_config data/envs/smp_booster_k1_env.yaml
 --agent_config data/agents/smp_booster_k1_agent.yaml
 
---out_dir output/smp_booster_k1
+--out_dir output/smp_booster_k1_newton

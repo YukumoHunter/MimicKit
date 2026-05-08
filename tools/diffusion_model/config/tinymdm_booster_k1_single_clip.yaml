@@ -26,6 +26,6 @@ grad_clip_norm: 1.0
 
 env_config: "data/envs/smp_booster_k1_env.yaml"
 motion_file: "data/motions/booster_k1/walk1_subject1.pkl"
-control_freq: 30
+control_freq: 50
 
 master_port: "11435"
