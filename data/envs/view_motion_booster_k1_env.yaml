@@ -9,4 +9,4 @@ root_height_obs: True
 
 key_bodies: ["left_foot_link", "right_foot_link", "Head_2", "left_hand_end_ball", "right_hand_end_ball"]
 
-motion_file: "data/motions/booster_k1/booster_k1_motion.pkl"
+motion_file: "data/motions/walk1_subject1.pkl"

@@ -1,3 +1,3 @@
 motions:
-  - file: "data/motions/booster_k1/booster_k1_motion.pkl"
+  - file: "data/motions/walk1_subject1.pkl"
     weight: 1.0

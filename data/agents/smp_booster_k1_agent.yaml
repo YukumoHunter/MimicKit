@@ -44,5 +44,5 @@ enable_gsi: False
 task_reward_weight: 0.0
 smp_reward_weight: 1.0
 
-smp_prior_cfg: "output/smp_prior_booster_k1/diffusion_config.yaml"
+smp_prior_cfg: "tools/diffusion_model/config/tinymdm_booster_k1_single_clip.yaml"
 smp_prior_model: "output/smp_prior_booster_k1/model.pt"
